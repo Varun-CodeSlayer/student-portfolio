@@ -15,12 +15,12 @@ function Navbar() {
       </div>
 
       <button
-        className="menu-toggle"
-        onClick={() => setMenuOpen(!menuOpen)}
-        aria-label="Toggle navigation menu"
-      >
-        ☰
-      </button>
+  className="menu-toggle"
+  onClick={() => setMenuOpen(!menuOpen)}
+  aria-label="Toggle navigation menu"
+>
+  {menuOpen ? "✕" : "☰"}
+</button>
 
       <ul className={`navbar-links ${menuOpen ? "active" : ""}`}>
 
