@@ -46,7 +46,7 @@ function Education() {
             </p>
 
             <div className="education-details">
-              <span>CGPA: 8.6</span>
+              <span>CGPA: 8.13</span>
               <span>Online Degree</span>
             </div>
 
